@@ -1,0 +1,12 @@
+{application,studyingplug,
+             [{applications,[kernel,stdlib,elixir,logger,plug_cowboy]},
+              {description,"studyingplug"},
+              {modules,['Elixir.Studyingplug',
+                        'Elixir.Studyingplug.Application',
+                        'Elixir.Studyingplug.HelloWorldPlug',
+                        'Elixir.Studyingplug.Plug.VerifyRequest',
+                        'Elixir.Studyingplug.Plug.VerifyRequest.IncompleteRequestError',
+                        'Elixir.Studyingplug.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Studyingplug.Application',[]}}]}.
